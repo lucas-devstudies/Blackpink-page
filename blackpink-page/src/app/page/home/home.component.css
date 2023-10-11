@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 120px;
+}
+header>img{
+    width: 164px;
+    height: 38px;
+}
+.container{
+    display: grid;
+    flex-direction: row;  
+    padding: 0px 120px;
+}
+.container-main{
+    display: flex;
+    flex-direction: column;
+    max-width: 18.75rem;
+    align-items: start;
+}
+.container-main>img{
+    width: 18.75rem;
+    height: 19.9375rem;
+}
+.container-main>p{
+    margin-top: 3rem;
+    width: 18.75rem;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
