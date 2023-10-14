@@ -1,0 +1,38 @@
+.menu-bt__container{
+    display: flex;
+    flex-direction: row;
+}
+.menu-bt-btn__home,.menu-bt-btn__contact, .menu-bt-btn__about{
+    padding: 18px 44px;
+    background: none;
+    border: none;
+    color: #fefefe;
+}
+
+/*Estilo de pressionado e clicado*/
+.menu-bt-btn__home:hover, .menu-bt-btn__contact:hover, .menu-bt-btn__about:hover{
+    background: #212121;
+}
+.menu-bt-btn__home:active, .menu-bt-btn__contact:active, .menu-bt-btn__about:active{
+    background: #303030;
+}
+
+/*Configuração de bordas*/
+
+.menu-bt-btn__home
+{
+    border-radius: 10px 0px 0px 10px;
+}
+.menu-bt-btn__about
+{
+    border-radius:0px 10px 10px 0px;
+}
+
+/*configuração de texto do botão*/
+button{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

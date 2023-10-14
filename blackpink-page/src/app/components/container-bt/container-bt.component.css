@@ -1,0 +1,22 @@
+button{
+    /*estilo básico*/
+    width: 18.5rem;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 5px;
+    background: #eea9bc;
+
+    /*estilo de texto*/
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+button:hover{
+    background: #D49AAA;
+}
+button:active{
+    background: #9F7681;
+}

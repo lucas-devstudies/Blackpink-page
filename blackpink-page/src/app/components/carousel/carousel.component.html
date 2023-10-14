@@ -1,0 +1,19 @@
+<ngb-carousel  
+*ngIf="images && images.length > 0"
+[showNavigationArrows]="false"
+[showNavigationIndicators]="false"> <!--a segunda parte faz com que as setas não apareçam e a terceira faz que os indicadores não apareçam-->
+    
+    <ng-template 
+      ngbSlide 
+      *ngFor="let image of images">
+        <div class="carousel-image"
+        style="max-height: 75vh;
+               width: auto;
+               margin: auto;
+               display:flex;
+               justify-content:center;">
+
+          <img [src]="image.imageSrc" [alt]="image.imageAlt">
+        </div>
+    </ng-template>
+</ngb-carousel>

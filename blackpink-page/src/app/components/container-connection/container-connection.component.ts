@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-container-connection',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./container-connection.component.css']
 })
 export class ContainerConnectionComponent {
-
+  
 }

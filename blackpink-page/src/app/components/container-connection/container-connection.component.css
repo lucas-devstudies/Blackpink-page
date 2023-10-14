@@ -1,0 +1,14 @@
+.container-connection__container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+}
+.container-connection__container >  img {
+    margin: 15px 30px;
+}
+.container-connection__container > img:hover{
+    transform: scale(1.2);
+}
+

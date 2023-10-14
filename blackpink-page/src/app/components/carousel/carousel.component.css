@@ -1,0 +1,8 @@
+ngb-carousel{
+    
+    margin-top: -50px;
+    opacity: 0.8;
+}
+ngb-carousel:hover{
+    opacity: 1;
+}
