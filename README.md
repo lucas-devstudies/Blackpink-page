@@ -3,13 +3,15 @@
 >Blackpink Page
 
 
-🔥Desafio  - DIO🔥
+🔥**Desafio  - DIO**🔥
+***
 
-📖Descrição:
+📖#Descrição:
 - No curso de Formação Angular na DIO o desafio foi desenvolver um site usando o que aprendemos até o momento no curso.
 Para cumprir o desafio, eu usei o design de um projeto que já tinha feito anteriormente e agora aplicando o que aprendi de desenvolvimento web e design nos últimos meses. 
+***
 
-🛠️Tecnologias:
+🛠️#Tecnologias:
 - Figma
 - Photoshop
 - Html
